@@ -7,6 +7,6 @@ import game.api.VisibleGameState;
 public class MyPlayer implements Player {
     @Override
     public Move choice(VisibleGameState visibleGameState) {
-        return Move.STRAIGHT;
+        return Move.LEFT;
     }
 }
