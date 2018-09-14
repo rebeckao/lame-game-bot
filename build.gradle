@@ -12,6 +12,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.rebeckao:lame-bot-game:newdirections'
+    compile 'com.github.rebeckao:lame-bot-game:v1.0.beta'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

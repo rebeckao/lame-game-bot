@@ -2,13 +2,13 @@ package bot;
 
 import game.api.GameRunner;
 import game.api.Player;
-import game.model.SilentGameRunner;
+import game.model.ConsoleGameRunner;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class MyPlayerTest {
-    private GameRunner gameRunner = new SilentGameRunner();
+    private GameRunner gameRunner = new ConsoleGameRunner();
     private Player player = new MyPlayer();
 
     @Test
